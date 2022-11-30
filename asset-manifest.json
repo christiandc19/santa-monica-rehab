@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/santa-monica-rehab/static/css/main.8a35e831.css",
+    "main.js": "/santa-monica-rehab/static/js/main.7808506b.js",
+    "static/media/hero-vbg.mp4": "/santa-monica-rehab/static/media/hero-vbg.c718651d05b0d653ab11.mp4",
+    "static/media/contact-bg.jpg": "/santa-monica-rehab/static/media/contact-bg.db81666221e4c9136776.jpg",
+    "static/media/footer-bg.jpg": "/santa-monica-rehab/static/media/footer-bg.344c8ecaa109f0c5f90e.jpg",
+    "static/media/therapy.jpg": "/santa-monica-rehab/static/media/therapy.d1176c8e87de94fcc86d.jpg",
+    "static/media/mission-bg.jpg": "/santa-monica-rehab/static/media/mission-bg.db5b94faf26f93e70d2f.jpg",
+    "static/media/staff.jpg": "/santa-monica-rehab/static/media/staff.9b2630a4cc05d70cac0f.jpg",
+    "static/media/insurance-bg.jpg": "/santa-monica-rehab/static/media/insurance-bg.bee99714a4f5c85f1a23.jpg",
+    "static/media/about-us-bg.jpg": "/santa-monica-rehab/static/media/about-us-bg.88e7a95d417d9abcaabc.jpg",
+    "static/media/treatment-bg2.jpg": "/santa-monica-rehab/static/media/treatment-bg2.8d1575f07782ff3e9957.jpg",
+    "static/media/substance-use.png": "/santa-monica-rehab/static/media/substance-use.c71896775a57a166784e.png",
+    "static/media/employment-assistance.png": "/santa-monica-rehab/static/media/employment-assistance.b877570723c987f63091.png",
+    "static/media/mental-illness.png": "/santa-monica-rehab/static/media/mental-illness.725a0fd5b6fe55782d42.png",
+    "static/media/clinic.jpg": "/santa-monica-rehab/static/media/clinic.3c0cf43b0d3bee224bf4.jpg",
+    "static/media/form.pdf": "/santa-monica-rehab/static/media/form.a776fe0770557cfef20d.pdf",
+    "static/media/santa-monica-logo.png": "/santa-monica-rehab/static/media/santa-monica-logo.47f7bba4bf3f9ddfdc3f.png",
+    "static/media/mhn.png": "/santa-monica-rehab/static/media/mhn.355f6f9c947de530f3db.png",
+    "static/media/beacon.png": "/santa-monica-rehab/static/media/beacon.1508237aac3182ac96e8.png",
+    "static/media/molina-healthcare.png": "/santa-monica-rehab/static/media/molina-healthcare.02bb9c11359036acc206.png",
+    "static/media/united-healthcare.png": "/santa-monica-rehab/static/media/united-healthcare.78400c2f51fba67d0aff.png",
+    "static/media/aetna.png": "/santa-monica-rehab/static/media/aetna.e3fd9d85734b8a724f66.png",
+    "static/media/bluecross.png": "/santa-monica-rehab/static/media/bluecross.a7cff49d3bbeeaeeabb4.png",
+    "static/media/cigna.png": "/santa-monica-rehab/static/media/cigna.b83d58397cc1db701f50.png",
+    "index.html": "/santa-monica-rehab/index.html",
+    "main.8a35e831.css.map": "/santa-monica-rehab/static/css/main.8a35e831.css.map",
+    "main.7808506b.js.map": "/santa-monica-rehab/static/js/main.7808506b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a35e831.css",
+    "static/js/main.7808506b.js"
+  ]
+}
