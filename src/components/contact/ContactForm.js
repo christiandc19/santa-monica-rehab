@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { BsFillPinMapFill } from 'react-icons/bs';
 import { AiOutlinePhone } from 'react-icons/ai';
-import { AiOutlineMail } from 'react-icons/ai';
+// import { AiOutlineMail } from 'react-icons/ai';
 
 
 import './ContactForm.css';
@@ -33,9 +33,9 @@ const ContactForm = () => {
                 <div className="map">
                     <div className="location">
                         <h1>GET IN TOUCH</h1><br />
-                        <p><AiOutlinePhone /> +1 123 456 7890  </p><br />
-                        <p><AiOutlineMail /> info@DomainName.com  </p><br />
-                        <p><BsFillPinMapFill /> 1234 Street City State 90028  </p><br />
+                        <p><AiOutlinePhone /> +1 323 596-1998  </p><br />
+                        {/* <p><AiOutlineMail /> info@DomainName.com  </p><br /> */}
+                        <p><BsFillPinMapFill /> 71777 San Jacinto Dr Suite 102, Rancho Mirage, Ca 92270  </p><br />
                         <p className="admission">Please call our admission department or fill out the form if you have any questions.</p>
                     </div>
 
