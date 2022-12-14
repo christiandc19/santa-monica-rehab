@@ -6,8 +6,10 @@ import Aetna from '../../assets/aetna.png'
 import Beacon from '../../assets/beacon.png'
 import Bluecross from '../../assets/bluecross.png'
 import Cigna from '../../assets/cigna.png'
-import MolinaHealthCare from '../../assets/molina-healthcare.png'
-import MHN from '../../assets/mhn.png'
+import Horizon from '../../assets/horizon.png'
+import Optima from '../../assets/optima.png'
+import Optum from '../../assets/optum.png'
+import Umr from '../../assets/umr.png'
 import United from '../../assets/united-healthcare.png'
 import Form from '../../assets/form.pdf'
 
@@ -52,13 +54,25 @@ const InsuranceSection = () => {
 
                     <Fade bottom>
                         <div className='insurance-thumbnail'>
-                            <img src={MolinaHealthCare} alt="Cigna Logo" loading="lazy" />
+                            <img src={Horizon} alt="Horizon Logo" loading="lazy" />
                         </div>
                     </Fade>
 
                     <Fade bottom>
                         <div className='insurance-thumbnail'>
-                            <img src={MHN} alt="Cigna Logo" loading="lazy" />
+                            <img src={Optima} alt="Optima Logo" loading="lazy" />
+                        </div>
+                    </Fade>
+
+                    <Fade bottom>
+                        <div className='insurance-thumbnail'>
+                            <img src={Optum} alt="Optum Logo" loading="lazy" />
+                        </div>
+                    </Fade>
+
+                    <Fade bottom>
+                        <div className='insurance-thumbnail'>
+                            <img src={Umr} alt="umr Logo" loading="lazy" />
                         </div>
                     </Fade>
 
