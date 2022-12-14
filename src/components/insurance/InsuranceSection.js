@@ -11,6 +11,9 @@ import Optima from '../../assets/optima.png'
 import Optum from '../../assets/optum.png'
 import Umr from '../../assets/umr.png'
 import United from '../../assets/united-healthcare.png'
+import Anthem from '../../assets/anthem.png'
+
+
 import Form from '../../assets/form.pdf'
 
 
@@ -81,6 +84,13 @@ const InsuranceSection = () => {
                             <img src={United} alt="Cigna Logo" loading="lazy" />
                         </div>
                     </Fade>
+
+                    <Fade bottom>
+                        <div className='insurance-thumbnail'>
+                            <img src={Anthem} alt="Anthem Insurance Logo" loading="lazy" />
+                        </div>
+                    </Fade>
+
                 </div>
             </div>
 
