@@ -20,7 +20,8 @@ const Jobs = () => {
                     <div className='job-link'>
                         <p>For more information for our Jobs Program, visit <a href='https://www.transitionsfortomorrow.org/'>here.</a></p>
                     </div>
-                </div>
+
+               </div>
             </div>
         </div>
     )
