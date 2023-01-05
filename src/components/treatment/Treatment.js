@@ -118,7 +118,7 @@ const Treatment = () => {
                         <p><MdPool /> Community pool</p>
                         <p><MdVolunteerActivism /> Sober events/fundraisers </p>
                         <br />
-                        <p>For more information about our addiction treatment programs, please contact Joser Forever Treatment Facilty today.</p>
+                        <p>For more information about our addiction treatment programs, please contact Santa Monica Rehab today.</p>
 
                         <div>
                                 <button><a href='323-596-1998'>323 596-1998</a></button>
