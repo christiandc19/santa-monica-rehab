@@ -1,29 +1,26 @@
 .InsuranceSection {
     width: 100%;
-    height: auto;
-    background: rgba(255, 255, 255, 0);
+    position: relative;
 }
 
-
 .InsuranceSection .content {
-    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
 }
 
-.InsuranceSection .container p {
+.InsuranceSection-container {
     text-align: center;
-    padding: 1rem;
+    padding: 25px;
 }
 
+.InsuranceSection-container p {
+        padding: 1rem 0;
+    }
 
-
-.InsuranceSection .content h2 {
-    text-align: center;
-    margin: auto;
-    margin-bottom: 0rem;
+.InsuranceSection h1 {
+    padding: 1rem;
 }
 
 .insurance-thumbnail img {
@@ -40,51 +37,22 @@
     justify-content: center;
 }
 
-.cta {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
+.insuranceSection-btn button {
+    margin: 1rem auto;
 }
 
-.form-cta {
-    text-align: center;
-}
-
-.form-cta p {
-    width: 100%;
-    padding: 10px;
-    margin: auto;
-}
-
-/*  */
-
-@media screen and (max-width: 940px) {
-    .InsuranceSection .content {
-        left: 0;
-        width: 100%;
-        padding: 1rem;
-        /* background: rgba(255, 255, 255, .7); */
-    }
-
-
-    .InsuranceSection h1 {
+@media  screen and (max-width:940px) {
+    .InsuranceSection-container h1 {
         font-size: 1.5rem;
+        padding: 1rem 0;
     }
 
-    .InsuranceSection p {
-        font-size: 15px;
+
+    .InsuranceSection-container p {
+        font-size: 14px;
     }
 
-    .InsuranceSection h2 {
-        font-size: 22px;
-    }
 }
-
-
-
-
-
 
 
 
