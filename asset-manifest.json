@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/santa-monica-rehab/static/css/main.95137104.css",
-    "main.js": "/santa-monica-rehab/static/js/main.5caba1d8.js",
+    "main.css": "/santa-monica-rehab/static/css/main.ce5c07de.css",
+    "main.js": "/santa-monica-rehab/static/js/main.2d24d746.js",
     "static/media/hero-bg.mp4": "/santa-monica-rehab/static/media/hero-bg.7a61cdd60f65976ba1ae.mp4",
     "static/media/footer-bg.webp": "/santa-monica-rehab/static/media/footer-bg.82fabf297fc0244dc3a5.webp",
     "static/media/treatment-1.jpg": "/santa-monica-rehab/static/media/treatment-1.9b93aa36872433733c19.jpg",
@@ -31,11 +31,11 @@
     "static/media/aetna.png": "/santa-monica-rehab/static/media/aetna.ba1c7baa5f90d207ae2b.png",
     "static/media/bluecross.png": "/santa-monica-rehab/static/media/bluecross.2f180be7d5ab799101c3.png",
     "index.html": "/santa-monica-rehab/index.html",
-    "main.95137104.css.map": "/santa-monica-rehab/static/css/main.95137104.css.map",
-    "main.5caba1d8.js.map": "/santa-monica-rehab/static/js/main.5caba1d8.js.map"
+    "main.ce5c07de.css.map": "/santa-monica-rehab/static/css/main.ce5c07de.css.map",
+    "main.2d24d746.js.map": "/santa-monica-rehab/static/js/main.2d24d746.js.map"
   },
   "entrypoints": [
-    "static/css/main.95137104.css",
-    "static/js/main.5caba1d8.js"
+    "static/css/main.ce5c07de.css",
+    "static/js/main.2d24d746.js"
   ]
 }
