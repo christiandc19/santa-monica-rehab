@@ -1,23 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
-
-.hero {
-    width: 100%;
-    height: 90vh;
+  video {
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background: rgba(2, 32, 8, 0.363);
-  }
-  
-  .hero:before {
-    content: '';
-    position: absolute;
-    background: url('../../assets/hero-bg.jpg') no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
   }
 
 
@@ -26,10 +13,10 @@
    text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
-    #ffffff 0%,
-    #0e7c0b 29%,
-    #ffffff 67%,
-    #f7f7f7 100%
+    #034d16 0%,
+    #32b32d 29%,
+    #034d16 67%,
+    #034d16 100%
   );
   background-size: auto auto;
   background-clip: border-box;
@@ -53,12 +40,11 @@
 
 
 .hero .hero-container {
-    top: 20%;
-    left: 8%;
+    top: 25%;
     position: absolute;
-    align-items: center;
-    text-align: left;
+    text-align: center;
     margin: 1rem;
+    width: 100%;
 }
 
 .hero-logo {
@@ -66,28 +52,26 @@
 }
 
 .hero h1 {
+
     font-size: 5rem;
-    text-align: left;
+    text-align: center;
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
 
 .hero h2 {
     font-size: 1.5rem;
-    text-align: left;
-    color: white;
+    color: rgb(5, 61, 14);
 }
 
 .hero-container p {
     font-size: 18px;
-    text-align: left;
     color: white;
 }
 
 .hero .hero-btn button {
     cursor: pointer;
 }
-
 
 
 
@@ -100,7 +84,7 @@
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:1200px) {
 
     .hero h2 {
         font-size: 18px;
@@ -114,11 +98,6 @@
         font-size: 12px;
     }
 
-    .hero .hero-container {
-        top: 30%;
-        left: 0%;
-        width: auto;
-    }
 
 
 
