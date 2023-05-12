@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
-import logo from "../../assets/nav-logo-2.png";
+import logo from "../../assets/nav-logo.png";
 // import { FiMail, FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiDribbble } from 'react-icons/fi'
 import "./FooterStyles.css";
 
@@ -16,8 +16,8 @@ const Footer = () => {
             <div className="logo-footer">
               <img
                 src={logo}
-                width="80px"
-                height="60px"
+                width="100px"
+                height="80px"
                 alt="Palm Springs Rehab Logo"
                 loading="lazy"
               />
