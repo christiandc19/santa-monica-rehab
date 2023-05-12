@@ -24,7 +24,7 @@ const PhpSection = () => {
               facility like they would during residential treatment, but they do
               make regular on-site appearances throughout the week.
               <br /> <br />
-              We, at Sacramento requires PHP patients to attend therapeutic
+              We, at Santa Monica requires PHP patients to attend therapeutic
               group sessions five times a week. These sessions teach vital
               coping skills and healthy ways to communicate and manage emotions.{" "}
               <br /> <br />

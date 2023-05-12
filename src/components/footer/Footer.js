@@ -194,7 +194,8 @@ const Footer = () => {
           </div>
           <p className="copyright">
             <p>
-              &copy; 2023 Sacramento Rehab Treatment Center. All rights reserved
+              &copy; 2023 Santa Monica Rehab Treatment Center. All rights
+              reserved
             </p>
           </p>
         </div>

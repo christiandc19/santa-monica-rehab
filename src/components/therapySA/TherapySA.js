@@ -19,9 +19,9 @@ const TherapySA = () => {
               <div className="left-content">
                 <h1>Types of Substance Addiction Disorder We Treat</h1>
                 <p>
-                  Here at Sacramento Rehab, we offer a full array of affordable
-                  drug rehab programs that can take addicts from detox to
-                  inpatient or outpatient care and back home again.
+                  Here at Santa Monica Rehab, we offer a full array of
+                  affordable drug rehab programs that can take addicts from
+                  detox to inpatient or outpatient care and back home again.
                 </p>
                 <br />
 

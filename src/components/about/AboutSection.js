@@ -18,7 +18,7 @@ const AboutSection = () => {
             </h2>{" "}
             <br />
             <p>
-              Sacramento Rehab Treatment Center has refined and well educated
+              Santa Monica Rehab Treatment Center has refined and well educated
               staff that is committed to providing the best possible level of
               care to our clients. We are there for you, through every stage of
               recovery. No matter where you’re located, you can reach out and
@@ -30,7 +30,7 @@ const AboutSection = () => {
               and utilize established medical treatments to help you get sober
               and stay sober. <br />
               <br />
-              Sacramento Rehab helps you taper in a safe, structured
+              Santa Monica Rehab helps you taper in a safe, structured
               environment. We are there for you, through every stage of
               recovery. No matter where you’re located, you can reach out and
               get in touch with someone from our staff today.

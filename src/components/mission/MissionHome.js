@@ -6,7 +6,7 @@ const MissionHome = () => {
     <>
       <div className="mission-home">
         <div className="mission-home-content container">
-          <h1>SACRAMENTO REHAB'S MISSION</h1>
+          <h1>SANTA MONICA REHAB'S MISSION</h1>
           <p>
             Provide every individual a quiet, calm, and safe place to begin the
             journey. It is our philosophy that in order to reduce the incidence
@@ -17,7 +17,7 @@ const MissionHome = () => {
             life.
           </p>
 
-          <h2>"The road to recovery starts on Sacramento Rehab"</h2>
+          <h2>"The road to recovery starts on Santa Monica Rehab"</h2>
         </div>
       </div>
     </>

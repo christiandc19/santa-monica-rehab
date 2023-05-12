@@ -60,8 +60,8 @@ const Section1 = () => {
             <div className="section1-caption section1-caption2">
               <p>
                 No matter what type of addiction or mental health condition you
-                are dealing with, there’s something for everyone at Sacramento
-                Rehab.
+                are dealing with, there’s something for everyone at Santa
+                Monicao Rehab.
               </p>
 
               <LinkRoll

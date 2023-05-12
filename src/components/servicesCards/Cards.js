@@ -15,7 +15,7 @@ const Cards = () => {
     <>
       <div id="cards">
         <div className="main-cards-header container">
-          <h1>WELCOME TO SACRAMENTO REHAB</h1>
+          <h1>WELCOME TO SANTA MONICA REHAB</h1>
           <h2>“Taking a step today will help you lead a better tomorrow.”</h2>
         </div>
 
@@ -23,15 +23,16 @@ const Cards = () => {
           <div class="card-wrap">
             <div className="cards-header-left">
               <h3>
-                Sacramento Rehab makes getting treatment <span>possible.</span>
+                Santa Monica Rehab makes getting treatment{" "}
+                <span>possible.</span>
               </h3>
               <br />
               <p>
-                At Sacramento Rehab Treatment Center, clients receive individual
-                therapy alongside a range of additional treatments, including
-                relapse prevention, trauma therapy, mindfulness meditation,
-                yoga, and more. We offer support that clients need to allow them
-                to gradually go back to treatment.{" "}
+                At Santa Monica Rehab Treatment Center, clients receive
+                individual therapy alongside a range of additional treatments,
+                including relapse prevention, trauma therapy, mindfulness
+                meditation, yoga, and more. We offer support that clients need
+                to allow them to gradually go back to treatment.{" "}
               </p>
             </div>
 

@@ -16,11 +16,11 @@ const Menus = () => {
     <>
       <div className="mh-cards-header container">
         <h1>
-          SACRAMENTO REHAB TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH
+          SANTA MONICA REHAB TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH
           PROGRAMS{" "}
         </h1>
         <p>
-          At Sacramento Rehab Treatment Center, clients receive individual
+          At Santa Monica Rehab Treatment Center, clients receive individual
           therapy alongside a range of additional treatments, including relapse
           prevention, trauma therapy, mindfulness meditation, transportation,
           yoga, and more. We offer support that clients need to allow them to
@@ -63,7 +63,7 @@ const Menus = () => {
             <h1>Intensive Outpatient Program</h1>
             <p class="mh-animate-text">
               No matter what type of addiction or mental health condition you
-              are dealing with, there’s something for everyone at Sacramento.
+              are dealing with, there’s something for everyone at Santa Monica.
             </p>
             <div class="mh-animate-text">
               <LinkRoll

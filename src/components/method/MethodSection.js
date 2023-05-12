@@ -20,15 +20,15 @@ const TreatmentSection = () => {
           Mental Health and Substance Abuse Treatment Above and Beyond the Norms
         </h1>
         <p>
-          Here at Sacramento Rehab, we firmly stand that without addressing our
-          physical aspect, the mind cannot successfully recover. We go above and
-          beyond the norms of mental health care, through a thorough and
+          Here at Santa Monica Rehab, we firmly stand that without addressing
+          our physical aspect, the mind cannot successfully recover. We go above
+          and beyond the norms of mental health care, through a thorough and
           intentional treatment plan that is specific to every kind of
           individual that addresses not only the mental but also the physical
           inequalities in the body.
           <br />
           <br />
-          Methods used by Sacramento Rehab are non-invasive, distinct, and
+          Methods used by Santa Monica Rehab are non-invasive, distinct, and
           successful in relieving acute symptoms that act as roadblocks to
           receiving the full therapy. Additionally, to get past more difficult
           progress barriers, these services are provided on a consistent and
@@ -134,7 +134,7 @@ const TreatmentSection = () => {
             <h1>Recreations</h1>
           </div>
           <p>
-            Sacramento Rehab promotes fun activities that clients learn how to
+            Santa Monica Rehab promotes fun activities that clients learn how to
             develop interests and hobbies that helps then improve their mental
             health. Clients must be cleared by the doctor to participate.
             Organized activities may include but are not limited to:
