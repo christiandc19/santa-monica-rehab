@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/santa-monica-rehab/static/css/main.5d71f53c.css",
-    "main.js": "/santa-monica-rehab/static/js/main.307f246d.js",
+    "main.js": "/santa-monica-rehab/static/js/main.efc7a17a.js",
     "static/media/Bg-Video.mp4": "/santa-monica-rehab/static/media/Bg-Video.5215fe21fd90bc078463.mp4",
     "static/media/activities-min.png": "/santa-monica-rehab/static/media/activities-min.6296b11206d33e19d904.png",
     "static/media/hero-bg-1.jpg": "/santa-monica-rehab/static/media/hero-bg-1.0c93d4ffcbaadc387b6f.jpg",
@@ -46,10 +46,10 @@
     "index.html": "/santa-monica-rehab/index.html",
     "static/media/waves.svg": "/santa-monica-rehab/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
     "main.5d71f53c.css.map": "/santa-monica-rehab/static/css/main.5d71f53c.css.map",
-    "main.307f246d.js.map": "/santa-monica-rehab/static/js/main.307f246d.js.map"
+    "main.efc7a17a.js.map": "/santa-monica-rehab/static/js/main.efc7a17a.js.map"
   },
   "entrypoints": [
     "static/css/main.5d71f53c.css",
-    "static/js/main.307f246d.js"
+    "static/js/main.efc7a17a.js"
   ]
 }
