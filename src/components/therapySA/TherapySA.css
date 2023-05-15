@@ -27,7 +27,7 @@
     flex-wrap: nowrap;
     gap: 1rem;
     top: 10%;
-    padding: 2rem 0;
+    padding: 8rem 0;
 }
 
 .box-icon {
@@ -61,6 +61,9 @@
     text-align: left;
 }
 
+.therapySA-btn button span {
+    color: white;
+}
 
 /* RIGHT */
 
@@ -74,12 +77,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 8px;
 }
 
 .TherapySA-right .box {
-    height: 320px;
+    height: auto;
     width: 350px;
     background-color: rgba(24, 23, 23, 0.247);
+    padding: 1rem 0;
 }
 
 
@@ -159,7 +164,7 @@
     display: none;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1400px) {
     .TherapySA .TherapySA-left {
         width: 100%;
     }
@@ -192,7 +197,7 @@
 
 
     .TherapySA-right  .box{
-        width: 90vw;
+        width: 100vw;
     }
     
     .TherapySA .TherapySA-left h1{

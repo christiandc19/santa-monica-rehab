@@ -25,7 +25,7 @@ const TherapySA = () => {
                 </p>
                 <br />
 
-                <div className="TherapySA-btn hide">
+                <div className="hide">
                   <LinkRoll
                     activeClass="active"
                     to="top"
@@ -34,13 +34,9 @@ const TherapySA = () => {
                     duration={500}
                   >
                     <Link to="/substance-abuse">
-                      <div className="hero-btn">
-                        <button class="hero-cta">
+                      <div className="therapySA-btn">
+                        <button>
                           <span>VIEW ALL</span>
-                          <svg viewBox="0 0 13 10" height="10px" width="15px">
-                            <path d="M1,5 L11,5"></path>
-                            <polyline points="8 1 12 5 8 9"></polyline>
-                          </svg>
                         </button>
                       </div>
                     </Link>
@@ -99,25 +95,21 @@ const TherapySA = () => {
             </div>
 
             <div className="TherapySA-btn hide-btn">
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/substance-abuse">
-                  <div className="hero-btn">
-                    <button class="hero-cta">
-                      <span>VIEW ALL</span>
-                      <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                      </svg>
-                    </button>
-                  </div>
-                </Link>
-              </LinkRoll>
+            <LinkRoll
+                    activeClass="active"
+                    to="top"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                  >
+                    <Link to="/substance-abuse">
+                      <div className="therapySA-btn">
+                        <button>
+                          <span>VIEW ALL</span>
+                        </button>
+                      </div>
+                    </Link>
+                  </LinkRoll>
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="logo-footer">
               <img
                 src={logo}
-                width="100px"
+                width="180px"
                 height="80px"
                 alt="Palm Springs Rehab Logo"
                 loading="lazy"
@@ -28,7 +28,7 @@ const Footer = () => {
               spy={true}
               smooth={true}
               duration={500}
-            >
+              >
               <BsFillArrowUpCircleFill className="icon" />
             </LinkRoll>
           </div>

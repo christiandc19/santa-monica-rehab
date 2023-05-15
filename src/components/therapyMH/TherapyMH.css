@@ -22,7 +22,7 @@
 
 .TherapyMH .content {
     top: 10%;
-    padding: 5rem 0;
+    padding: 6rem 0 3rem 0;
     text-align: center;
 }
 
@@ -158,7 +158,7 @@
     left: 0;
     display: block;
     border-radius: 50px;
-    background: #783B04;
+    background: var(--primary-color);
     width: 45px;
     height: 45px;
     transition: all 0.3s ease;
@@ -188,7 +188,7 @@
    
    .TherapyMH-cta:hover:before {
     width: 100%;
-    background: #783B04;
+    background: var(--primary-color);
    }
    
    .TherapyMH-cta:hover svg {

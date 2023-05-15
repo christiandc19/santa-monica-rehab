@@ -14,7 +14,7 @@
   .mission-home:before {
     content: '';
     position: absolute;
-    background: url('../../assets/mission-home-min.jpg') no-repeat center bottom/cover;
+    background: url('../../assets/mission-home-min.jpg') no-repeat center top/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -22,7 +22,7 @@
   }
 
   .mission-home .mission-home-content  {
-    top: 15%;
+    top: 25%;
   }
 
 .mission-home .mission-home-content h1 {
@@ -45,7 +45,7 @@
     text-align: center;
     padding: 2rem;
     font-family: 'Kaushan Script', cursive;
-    color: rgb(238, 214, 194);
+    color: rgb(255, 255, 255);
 }
 
 
