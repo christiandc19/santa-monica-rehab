@@ -32,20 +32,20 @@
     font-size: 1rem;
     padding: 1rem 0;
     letter-spacing: 5px;
-    color: rgb(214, 113, 230);
+    color: var(--primary-color);
 }
 
 .homeSection2-content h2 {
     font-size: 2rem;
     padding: 0 0 1rem 0;
-    color: #977ab3;
+    color: rgba(0, 0, 0, 0.76);
     font-family: 'DM Serif Display', serif;
 }
 
 
 .homeSection2-content h2 span {
     font-family: 'Parisienne', cursive;    
-    color: rgb(214, 113, 230);
+    color: var(--primary-color);
     font-size: 3rem;
     line-height: 0;
 }

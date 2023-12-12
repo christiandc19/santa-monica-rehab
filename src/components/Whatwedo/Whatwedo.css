@@ -26,13 +26,13 @@
 
 
 .wrapper-content-right h2 {
-    font-size: 2rem;
-    color: #5a5c82;
+    font-size: 1.5rem;
+    color: #000000d3;
 }
 
 .wrapper-content-right h1 {
     text-transform: uppercase;
-    color: #977ab3;
+    color: var(--primary-color);
     font-size: 1rem;
     letter-spacing: 8px; 
 }

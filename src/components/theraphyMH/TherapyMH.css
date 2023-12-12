@@ -7,7 +7,7 @@
     height: 100%;
     position: relative;
     justify-content: center;
-    background: #5a5c825d;
+    background: rgb(250, 249, 247);
     margin: 8rem 0 5rem 0;
 }
   
@@ -51,7 +51,7 @@
 }
 
 .TherapyMH .TherapyMH-left h1{
-    color: #ffffff;
+    color: #000000;
     font-size: 1rem;
     letter-spacing: 8px; 
 }
@@ -75,7 +75,7 @@
 .TherapyMH-right .item {
     height: auto;
     width: 350px;
-    background-color: rgba(253, 249, 249, 0.281);
+    background-color: rgba(255, 255, 255, 0.863);
     border-radius: .5rem;
 }
 
@@ -86,13 +86,13 @@
 /* box 1 */
 
 .box1 .box-content h1 {
-    color: #977ab3;
+    color: #4d4b4b;
     padding: 1rem 0;
     font-size: 1.2rem;
 }
 
 .box1 .box-content p {
-    color: var(--primary-color);
+    color: #4d4b4b;
     text-align: center;
     padding: 1rem;
 }
@@ -100,13 +100,13 @@
 /* box 2 */
 
 .box2 .box-content h1 {
-    color: #977ab3;
+    color: #4d4b4b;
     padding: 1rem 0;
     font-size: 1.2rem;
 }
 
 .box2 .box-content p {
-    color: var(--primary-color);
+    color: #4d4b4b;
     text-align: center;
     padding: 1rem;
 }
@@ -114,13 +114,13 @@
 /* box 3 */
 
 .box3 .box-content h1 {
-    color: #977ab3;
+    color: #4d4b4b;
     padding: 1rem 0;
     font-size: 1.2rem;
 }
 
 .box3 .box-content p {
-    color: var(--primary-color);
+    color: #4d4b4b;
     text-align: center;
     padding: 1rem;
 }
@@ -128,13 +128,13 @@
 /* box 4 */
 
 .box4 .box-content h1 {
-    color: #977ab3;
+    color: #4d4b4b;
     padding: 1rem 0;
     font-size: 1.2rem;
 }
 
 .box4 .box-content p {
-    color: var(--primary-color);
+    color: #4d4b4b;
     text-align: center;
     padding: 1rem;
 }
@@ -164,7 +164,7 @@
     left: 0;
     display: block;
     border-radius: 50px;
-    background: #977ab3;
+    background: var(--primary-color);
     width: 45px;
     height: 45px;
     transition: all 0.3s ease;
@@ -194,7 +194,7 @@
    
    .TherapyMH-cta:hover:before {
     width: 100%;
-    background: #977ab3;
+    background: var(--primary-color);
    }
    
    .TherapyMH-cta:hover svg {
