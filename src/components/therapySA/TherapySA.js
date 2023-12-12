@@ -1,55 +1,37 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
-import { Link as LinkRoll } from "react-scroll";
-
 import "./TherapySA.css";
+import { Link as LinkRoll } from "react-scroll";
 import { Link } from "react-router-dom";
-import { CiBeerMugFull } from "react-icons/ci";
-import { CiPillsBottle1 } from "react-icons/ci";
-import { RiSyringeLine } from "react-icons/ri";
-import { TbPills } from "react-icons/tb";
+import Fade from 'react-reveal/Fade';
 
 const TherapySA = () => {
   return (
     <>
-      <div className="TherapySA">
-        <div className="content">
+      <div className="therapySA">
+        <div className="therapySA-content">
+          <div className="therapySA-header container">
+            <h1>OUR SUBSTANCE ABUSE PROGRAMS</h1>
+            <p>
+              Our compassionate staff utilizes established medical treatments to
+              decrease withdrawal effects in an empathetic environment. In the
+              meantime, you’ll receive behavioral health care from experienced
+              counselors to boost your chances for an effective recovery.
+            </p>
+          </div>
+
+          <div className="therapySA-flex container">
+
           <Fade left>
-            <div className="TherapySA-left">
-              <div className="left-content">
-                <h1>Types of Substance Addiction Disorder We Treat</h1>
-                <p>
-                  Here at Santa Monica Rehab, we offer a full array of
-                  affordable drug rehab programs that can take addicts from
-                  detox to inpatient or outpatient care and back home again.
-                </p>
-                <br />
-
-                <div className="hide">
-                  <LinkRoll
-                    activeClass="active"
-                    to="top"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
-                    <Link to="/substance-abuse">
-                      <div className="therapySA-btn">
-                        <button>
-                          <span>VIEW ALL</span>
-                        </button>
-                      </div>
-                    </Link>
-                  </LinkRoll>
-                </div>
+            <div className="therapySA-flexItem">
+              <div className="flex-img">
+                <img
+                  src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/alcoholism.jpg"
+                  alt="Alcoholism"
+                  loading="lazy"
+                />
               </div>
-            </div>
-          </Fade>
 
-          <div className="TherapySA-right">
-            <div className="box1 box">
-              <div className="box-content1">
-                <CiBeerMugFull className="box-icon" />
+              <div className="flex-caption">
                 <h1>ALCOHOL ADDICTION</h1>
                 <p>
                   Inability to manage one’s drinking habits. It is the most
@@ -57,22 +39,20 @@ const TherapySA = () => {
                 </p>
               </div>
             </div>
+          </Fade>
 
-            <div className="box2 box">
-              <div className="box-content2">
-                <CiPillsBottle1 className="box-icon" />
-                <h1>PRESCRIPTION ADDICTION</h1>
-                <p>
-                  Abuse of prescription medications can be recreational, due to
-                  addiction, or both, and the consequences can be severe or
-                  fatal.
-                </p>
+
+          <Fade top>
+            <div className="therapySA-flexItem">
+              <div className="flex-img">
+                <img
+                  src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/heroin.jpg"
+                  alt="Alcoholism"
+                  loading="lazy"
+                />
               </div>
-            </div>
 
-            <div className="box3 box">
-              <div className="box-content3">
-                <RiSyringeLine className="box-icon" />
+              <div className="flex-caption">
                 <h1>HEROIN ADDICTION</h1>
                 <p>
                   Heroin is an opioid stimulant created from morphine and the
@@ -81,37 +61,43 @@ const TherapySA = () => {
                 </p>
               </div>
             </div>
+          </Fade>
 
-            <div className="box4 box">
-              <div className="box-content4">
-                <TbPills className="box-icon" />
-                <h1>XANAX ADDICTION</h1>
+          <Fade right>
+            <div className="therapySA-flexItem">
+              <div className="flex-img">
+                <img
+                  src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/cocaine.jpg"
+                  alt="Alcoholism"
+                  loading="lazy"
+                />
+              </div>
+
+              <div className="flex-caption">
+                <h1>COCAINE ADDICTION</h1>
                 <p>
-                  When taken in high doses, Xanax can lead to serious side
-                  effects, ranging from coma, to respiratory arrest, and even
-                  death.
+                  A highly addictive stimulant that affects the brain by
+                  elevating levels of dopamine (a chemical associated with
+                  reward or pleasure).
                 </p>
               </div>
             </div>
-
-            <div className="TherapySA-btn hide-btn">
-            <LinkRoll
-                    activeClass="active"
-                    to="top"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
-                    <Link to="/substance-abuse">
-                      <div className="therapySA-btn">
-                        <button>
-                          <span>VIEW ALL</span>
-                        </button>
-                      </div>
-                    </Link>
-                  </LinkRoll>
-            </div>
+            </Fade>
           </div>
+
+          <LinkRoll
+            activeClass="active"
+            to="top"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            <Link to="/substance-abuse">
+              <div className="therapySA-btn">
+                <button>VIEW ALL</button>
+              </div>
+            </Link>
+          </LinkRoll>
         </div>
       </div>
     </>

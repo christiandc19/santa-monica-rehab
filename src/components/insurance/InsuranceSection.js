@@ -1,101 +1,70 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './InsuranceSection.css'
-import InsuranceLogos from './InsuranceLogos'
 
-import Aetna from '../../assets/aetna.png'
-import Beacon from '../../assets/beacon.png'
-import Bluecross from '../../assets/bluecross.png'
-import Cigna from '../../assets/cigna.png'
-import Horizon from '../../assets/horizon.png'
-import UMR from '../../assets/umr.png'
-import United from '../../assets/united-healthcare.png'
-import Optima from '../../assets/optima.png'
-import Optum from '../../assets/optum.png'
-import Anthem from '../../assets/anthem.png'
+import Aetna from '../../assets/aetna.webp'
+import Beacon from '../../assets/beacon.webp'
+import Bluecross from '../../assets/bluecross.webp'
+import Cigna from '../../assets/cigna.webp'
+import Horizon from '../../assets/horizon.webp'
+import Anthem from '../../assets/anthem.webp'
 
 
 
-const InsuranceSection = () => {
+const InsuranceInsert = () => {
     return (
         <>
         <div className='InsuranceSection'>
             <div className="InsuranceSection-container">
                 <div>
-                <h1>WE WORK WITH MAJOR INSURANCE GROUPS</h1>
+                <h1>WE WORK WITH MAJOR INSURANCE</h1>
                 <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
                 </div>
                 <div className="content container">
+                            <Fade bottom>
+                                <div className='insurance-thumbnail'>
+                                <img src={Aetna}  alt="Aetna Insurance Logo" loading="lazy"/>
+                                </div>
+                            </Fade>
+
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={Aetna}/>
+                                <img src={Beacon} alt="Beacon Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={Beacon}/>
+                                <img src={Bluecross} alt="Bluecross Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={Bluecross}/>
+                                <img src={Cigna} alt="Cigna Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={Cigna}/>
+                                <img src={Horizon} alt="Horizon Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={Horizon}/>
-                                </div>
-                            </Fade>
-
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={UMR}/>
-                                </div>
-                            </Fade>
-
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={United}/>
-                                </div>
-                            </Fade>
-
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={Optima}/>
-                                </div>
-                            </Fade>
-
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={Optum}/>
-                                </div>
-                            </Fade>
-
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <InsuranceLogos Image={Anthem}/>
+                                <img src={Anthem}  alt="Optum Health Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
                 </div>
             </div>
-
-
-
-
-
         </div>
+
+
+
         </>
     )
 }
 
-export default InsuranceSection
+export default InsuranceInsert

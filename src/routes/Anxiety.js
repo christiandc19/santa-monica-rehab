@@ -4,6 +4,8 @@ import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
 import ANXIETY from '../components/MH-Anxiety/Anxiety'
 import AnxietySection from '../components/MH-Anxiety/AnxietySection'
+import Insurance from '../components/insurance/InsuranceSection'
+import ContactForm from '../components/contact/ContactForm'
 
 
 const Anxiety = () => {
@@ -12,6 +14,8 @@ const Anxiety = () => {
     <Navbar /> 
     <ANXIETY />
     <AnxietySection />
+    <Insurance />
+    <ContactForm />
     <Footer />
      </>
   )

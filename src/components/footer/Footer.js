@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
+
 import logo from "../../assets/nav-logo.png";
-// import { FiMail, FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiDribbble } from 'react-icons/fi'
+import DHCS from "../../assets/DHCS-logo.png";
+
 import "./FooterStyles.css";
 
 import { Link as LinkRoll } from "react-scroll";
@@ -14,27 +16,32 @@ const Footer = () => {
         <div className="container">
           <div className="top">
             <div className="logo-footer">
-              <img
-                src={logo}
-                width="180px"
-                height="80px"
-                alt="Palm Springs Rehab Logo"
-                loading="lazy"
-              />
+              <img src={logo} alt="Santa Monica Rehab Logo" loading="lazy" />
             </div>
+
             <LinkRoll
               activeClass="active"
               to="top"
               spy={true}
               smooth={true}
               duration={500}
-              >
-              <BsFillArrowUpCircleFill className="icon" />
+            >
+              <BsFillArrowUpCircleFill className="footer-icon2" />
+            </LinkRoll>
+
+            <LinkRoll
+              activeClass="active"
+              to="top"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              <BsFillArrowUpCircleFill className="footer-icon" />
             </LinkRoll>
           </div>
           <div className="col-container">
-            <div className="col">
-              <h3>COMPANY</h3>
+            <div className="footer-col">
+              <h3>Company</h3>
 
               <LinkRoll
                 activeClass="active"
@@ -67,13 +74,25 @@ const Footer = () => {
                 smooth={true}
                 duration={500}
               >
-                <Link to="/mental-health">
-                  <p>Programs</p>
+                <Link to="/team">
+                  <p>Our Team</p>
+                </Link>
+              </LinkRoll>
+
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/testimonials">
+                  <p>Testimonials</p>
                 </Link>
               </LinkRoll>
             </div>
 
-            <div className="col">
+            <div className="footer-col">
               <h3>Navigation</h3>
 
               <LinkRoll
@@ -95,8 +114,8 @@ const Footer = () => {
                 smooth={true}
                 duration={500}
               >
-                <Link to="/treatment">
-                  <p>Our Method</p>
+                <Link to="/mental-health">
+                  <p>Mental Health Treatment</p>
                 </Link>
               </LinkRoll>
 
@@ -107,8 +126,8 @@ const Footer = () => {
                 smooth={true}
                 duration={500}
               >
-                <Link to="/insurance">
-                  <p>Insurance</p>
+                <Link to="/substance-abuse">
+                  <p>Substance Abuse Treatment</p>
                 </Link>
               </LinkRoll>
 
@@ -119,84 +138,41 @@ const Footer = () => {
                 smooth={true}
                 duration={500}
               >
-                <Link to="/contact">
-                  <p>Contact</p>
+                <Link to="/jobs">
+                  <p>Jobs Program</p>
                 </Link>
               </LinkRoll>
             </div>
 
-            {/* <div className="col">
-                        <h3>SUBSTANCE ABUSE</h3>
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/substance-abuse-php'><p>Partial Hospitalization Program</p></Link>
-                        </LinkRoll>
+            <div className="license">
+              <h3>Licensed by the State Department of Health Care Services</h3>
+              <p>
+                License Number: 191057BP <br />
+                Expiration Date: 6 / 30 / 2025{" "}
+              </p>
+              <br />
 
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/substance-abuse-iop'><p>Intensive Outpatient Program</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/substance-abuse-op'><p>Outpatient Program</p></Link>
-                        </LinkRoll>
-                    </div> */}
-
-            <div className="col">
-              <h3>MENTAL HEALTH</h3>
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
+              <a
+                href="https://data.chhs.ca.gov/dataset/sud-recovery-treatment-facilities"
+                target="_blank"
+                rel="noreferrer"
               >
-                <Link to="/mental-health-php">
-                  <p>Partial Hospitalization Program</p>
-                </Link>
-              </LinkRoll>
-
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/mental-health-iop">
-                  <p>Intensive Outpatient Program</p>
-                </Link>
-              </LinkRoll>
-
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/mental-health-op">
-                  <p>Outpatient Program</p>
-                </Link>
-              </LinkRoll>
+                ( View License & Certification Information here ).
+              </a>
+              <div>
+                <img
+                  src={DHCS}
+                  width="300px"
+                  height="150px"
+                  alt="Santa Monica Rehab Logo"
+                  loading="lazy"
+                />
+              </div>
             </div>
-
-            {/* <form>
-                        <h3>Join Our Team</h3>
-                        <input type="email" placeholder='Enter your email' />
-                        <FiMail className='mail-icon' />
-                        <div className="social-group">
-                            <FiInstagram className='social-icon' />
-                            <FiFacebook className='social-icon' />
-                            <FiLinkedin className='social-icon' />
-                            <FiDribbble className='social-icon' />
-                            <FiGithub className='social-icon' />
-                        </div>
-                    </form> */}
           </div>
+
           <p className="copyright">
-            <p>
-              &copy; 2023 Santa Monica Rehab Treatment Center. All rights
-              reserved
-            </p>
+            <p>&copy; 2023 Santa Monica Rehab. All rights reserved</p>
           </p>
         </div>
       </div>

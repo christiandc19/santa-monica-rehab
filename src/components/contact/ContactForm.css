@@ -1,15 +1,45 @@
-.contactform {
-  background: #F0EFE3;
-  padding: 3rem 0;
+
+
+.bg {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.bg:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: url('../../assets/bg1.jpg') no-repeat center center/cover;
+  opacity: 0.03;
+  padding: 5rem 0;
+
 }
 
 
+.contact-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  
+
   .get_form_inner {
     display: block;
-    padding: 3rem 3rem ;
-    background: #F0EFE3;
+    padding: 2rem 2rem ;
+    background: #fff;
     box-shadow: -4px -2px 20px -7px #cfd5df;
-    margin: 2rem 5rem 2rem 5rem;
+    margin: 4rem 2rem 2rem 3rem;
   }
 
 input {
@@ -40,7 +70,7 @@ input {
   }
 
   .get_form_inner_text h3 {
-    color: #333;
+    color: var(--primary-color);
     font-size: 26px;
     font-weight: 600;
   }
@@ -56,8 +86,6 @@ input {
     display: inline-block;
     font-size: 16px;
     text-transform: uppercase;
-    /* background: transparent; */
-    /* border: 2px solid; */
     font-weight: 500;
     padding: 10px 20px;
     outline: 0;
@@ -70,16 +98,14 @@ input {
   }
 
   input[type="submit"]:hover {
-    background-color: var(--secondary-color);
+    background-color: rgb(212, 42, 212);
     border-color: var(--secondary-color);
     color: #fff;
   }
 
-
   .contact-cards-container {
-    display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    width: 330px;
   }
 
   .get_form_inner2 {
@@ -89,7 +115,8 @@ input {
     padding: 2rem 1rem;
     background: #fff;
     box-shadow: -4px -2px 20px -7px #cfd5df;
-    margin: 1rem 1rem 3rem 1rem;
+    margin: 4rem 1rem 1rem 1rem;
+    border-bottom: 3px solid var(--primary-color);
   }
 
   .get_form_inner2  h2 {
@@ -103,19 +130,21 @@ input {
     margin: 1rem auto;
     }
 
-    iframe {
-      width: 100%;
-      border-radius: 1rem;
-      border: none;
-      box-shadow: 10px 5px 5px rgb(129, 129, 129);
+    .hidden {
+      display: none;
+      margin-bottom: 2rem;
+      color: white;
+      text-align: center;
+      width: 10rem;
+      margin: auto;
+      z-index: 2;
+  }
 
-    }
 
-  
 
   @media screen and (max-width: 940px) {
     .get_form_inner {
-        margin: 2rem 1rem 2rem 1rem;
+        margin: 4rem 1rem 2rem 1rem;
       }
 
       iframe {

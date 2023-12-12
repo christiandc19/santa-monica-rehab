@@ -3,8 +3,6 @@ import Fade from 'react-reveal/Fade';
 
 import './SA.css'
 
-
-
 const SA = () => {
     return (
         <div className='sa submenu'>

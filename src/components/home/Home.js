@@ -1,29 +1,29 @@
 import React from 'react'
 import InsuranceSection from '../insurance/InsuranceSection';
-import WhatWeDo from '../section2/Section2';
+import WeDo from '../../components/Whatwedo/Whatwedo';
+import Whoweare from '../Whoweare/Whoweare'
 import ContactForm from '../contact/ContactForm';
-// import Conditions from '../conditions/Conditions';
-import MissionHome from '../mission/MissionHome';
+import Team from '../../components/team/TeamSection'
+import HomeSection1 from '../homeSection1/HomeSection1';
+import HomeMission from '../mission/HomeMission';
+import TherapyMH from '../theraphyMH/TheraphyMH';
 import TherapySA from '../therapySA/TherapySA';
-import TherapyMH from '../therapyMH/TherapyMH';
-// import Section1 from '../section1/Section1';
-import Section3 from '../section3/Section3';
-// import Section4 from '../section4/Section4';
+import InsuranceHome from '../insurance/InsuranceHome';
 
 
 
 const home = () => {
   return (
     <>
-    {/* <Section4 /> */}
-    <WhatWeDo />
-    <Section3 />
-    {/* <Section1 /> */}
-    <TherapySA />
-    {/* <Conditions /> */}
+    <WeDo />
+    <HomeSection1 />
     <TherapyMH />
+    <TherapySA />
+    <Whoweare />
+    <Team />
+    <HomeMission />
     <InsuranceSection />
-    <MissionHome />
+    <InsuranceHome />
     <ContactForm />
     </>
   )

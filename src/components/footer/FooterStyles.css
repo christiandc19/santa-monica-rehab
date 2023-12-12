@@ -1,23 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
 .footer {
     width: 100%;
-    height: 50vh;
+    height: auto;
     position: relative;
+    background: #000000;
 }
 
-.footer:before {
-    content:'';
-    position: absolute;
-    background: url('../../assets/hero-bg-1.jpg') no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-}
+
 
 .footer .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 3rem 0;
+}
+
+.logo-footer {
+    width: 150px;
+}
+
+.logo-footer img {
+    width: 100%;
 }
 
 .footer .top {
@@ -32,11 +38,27 @@
     align-items: center;
 }
 
-.footer .top .icon {
+.footer .top .footer-icon {
+    font-size: 5rem;
+    margin-right: 1rem;
+    color: white;
+    cursor: pointer;
+    padding: .8rem;
+    border: 1px solid white;
+    border-radius: 10rem;
+}
+
+
+.footer .top .footer-icon2 {
     font-size: 3rem;
     margin-right: 1rem;
-    color: rgb(9, 147, 189);
+    color: white;
     cursor: pointer;
+}
+
+.footer h1 {
+    font-size: 2rem;
+    color: white;
 }
 
 .footer h2 {
@@ -44,95 +66,100 @@
 }
 
 .footer h3 {
-    color: rgb(68, 67, 67);
+    color: white;
+    font-size: 1rem;
 }
 
 .footer .col-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
     padding: 1rem;
     width: 100%;
 }
 
-
+.footer-col {
+    width: 300px;
+}
 
 .footer h3 {
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0;
     text-transform: uppercase;
-    text-align: center;
+    color: rgb(226, 140, 10);
+    font-size: .8rem;
 }
 
+.footer .license p {
+    color: white;
+}
+
+.footer .license img {
+    margin: 1rem 0;
+}
+
+
+.footer .license a:hover {
+    color: rgb(8, 138, 245);
+}
 
 .footer p {
+    font-family: 'Montserrat', sans-serif;
     margin: .5rem 0;
-    color: rgb(9, 147, 189);
-    text-align: center;
-
-}
-
-.footer form {
-    width: 100%;
-    margin-bottom: .6rem;
-    position: relative;
-}
-
-.footer form input {
-    padding: 1rem;
-    width: 100%;
-    outline: none;
-    font-size: 1rem;
-    border: 1px solid #aaa;
-    border-radius: 4px;
-    color: #333;
-}
-
-.footer form input:focus {
-    color: #333;
-    outline: var(--primary-color);
-    box-shadow: 0 0 8px 0 var(--primary-dark);
-}
-
-.footer form .mail-icon {
-    position: absolute;
-    font-size: 1.4rem;
-    margin: 1rem;
-    right: .2rem;
-    color: #aaa;
-    cursor: pointer;
-}
-
-.footer form .social-icon {
-    margin: 1rem 1rem 1rem 0;
-    padding: .6rem;
-    background-color: var(--primary-dark);
-    border-radius: 4px;
-    color: #f8f8f8;
-    font-size: 3rem;
+    color: white;
+    font-weight: 500;
+    text-align: left;
 }
 
 
 .copyright p {
-    color: rgb(9, 147, 189);
+    color: white;
     text-transform: uppercase;
-    text-align: center;
 }
 
-@media screen and (max-width: 940px) {
+
+.footer .top .footer-icon2 {
+    display: none;
+}
+
+
+@media screen and (max-width: 1200px) {
     .footer {
         height: 100%;
     }
 
-    .footer .col-container {
-        grid-template-columns: 1fr 1fr;
+
+    .footer h1, .footer h2, .footer h3 {
+        text-align: left;
     }
 
-    .footer form {
-        grid-column: 1 / span 2;
+    .license {
+        width: 100%;
+        text-align: center;
     }
 
-    /* .logo-footer img{
-        width: 50%;
-    } */
+    .footer-col h3, .footer-col p {
+        text-align: center;
+    }
+
+    .license h3 {
+        text-align: center;
+    }
+
+    .license p {
+        text-align: center;
+    }
+
+    .footer .top .footer-icon {
+        display: none;
 }
 
+
+.logo-footer {
+    margin: auto;
+}
+
+
+
+}
 

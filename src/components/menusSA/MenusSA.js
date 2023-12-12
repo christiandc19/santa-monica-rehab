@@ -1,125 +1,41 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Fade from "react-reveal/Fade";
 import { Link as LinkRoll } from "react-scroll";
 import "./MenusSA.css";
 
-import Contact2 from "../contact/Contact2";
-import SubCardBg from "../../assets/sub-card-bg-min.jpg";
-
-import Card1 from "../../assets/card1.jpg";
-import Card2 from "../../assets/card2.jpg";
-import Card3 from "../../assets/card3.jpg";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 const MenusSA = () => {
   return (
     <>
       <div className="mh-cards-header container">
         <h1>
-          SANTA MONICA REHAB TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH
-          PROGRAMS
+          {" "}
+          SANTA MONICA REHAB TREATMENT CENTER OFFERS VARIOUS SUBSTABCE ABUSE
+          PROGRAMS{" "}
         </h1>
         <p>
-          At Santa Monica Rehab Treatment Center, clients receive individual
-          therapy alongside a range of additional treatments, including relapse
-          prevention, trauma therapy, mindfulness meditation, transportation,
-          yoga, and more. We offer support that clients need to allow them to
-          gradually go back to treatment.
+          There are numerous options for addressing concerns related to
+          substance use and addiction and each individual will have their own
+          set of goals when engaging in treatment. Every person’s experience is
+          different, and what has been effective for some people may not be
+          effective for others. If you or someone you care about is struggling
+          with alcohol, cannabis, or other substance use, find the right help
+          for you below.
         </p>
-      </div>
-
-      <div class="mh-card-wrap">
-        <div class="mh-tile">
-          <Fade left>
-            <img src={Card1} alt="Mental Health" loading="lazy" />
-          </Fade>
-          <div class="mh-text">
-            <h1>Partial Hospitalizaion Program​</h1>
-            <p class="mh-animate-text">
-              Some of our clients are here to attend to their mental health, and
-              some come to us for help with addiction and sobriety.
-            </p>
-            <div class="mh-animate-text">
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/substance-abuse-php">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-          </div>
-        </div>
-
-        <div class="mh-tile">
-          <Fade top>
-            <img src={Card2} alt="Substance Use" loading="lazy" />
-          </Fade>
-          <div class="mh-text">
-            <h1>Intensive Outpatient Program</h1>
-            <p class="mh-animate-text">
-              No matter what type of addiction or mental health condition you
-              are dealing with, there’s something for everyone at Santa Monica.
-            </p>
-            <div class="mh-animate-text">
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/substance-abuse-iop">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-          </div>
-        </div>
-
-        <div class="mh-tile">
-          <Fade right>
-            <img src={Card3} alt="Warehouse Employees" loading="lazy" />
-          </Fade>
-          <div class="mh-text">
-            <h1>Outpatient Program</h1>
-            <p class="mh-animate-text">
-              We offer a variety of employment tools and resources to help you
-              land on your feet and get hired at a great company in recovery.
-            </p>
-            <div class="mh-animate-text">
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/substance-abuse-op">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-          </div>
-        </div>
       </div>
 
       {/* Mental Health Thumbnails */}
 
-      <div class="sa-card-wrap container">
-        <div class="sa-tile">
-          <Fade left>
-            <img src={SubCardBg} alt="Mental Health" loading="lazy" />
-          </Fade>
-          <div class="sa-text">
-            <h5>SUBTANCE ABUSE TREATMENT​</h5>
-            <h1>Alcohol Addiction</h1>
-
-            <div class="sa-animate-text">
+      <div className="top-flex">
+        <div class="main">
+          <div class="view view-fourth">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/alcoholism.jpg"
+              alt="Alcoholism"
+              loading="lazy"
+            />
+            <div class="mask">
               <LinkRoll
                 activeClass="active"
                 to="top"
@@ -128,22 +44,30 @@ const MenusSA = () => {
                 duration={500}
               >
                 <Link to="/alcohol">
-                  <button>Learn More</button>
+                  <p>
+                    Learn More{" "}
+                    <span>
+                      <AiOutlineArrowRight />
+                    </span>
+                  </p>
                 </Link>
               </LinkRoll>
             </div>
           </div>
+
+          <div className="title">
+            <h2>ALCOHOLISM</h2>
+          </div>
         </div>
 
-        <div class="sa-tile">
-          <Fade left>
-            <img src={SubCardBg} alt="Mental Health" loading="lazy" />
-          </Fade>
-          <div class="sa-text">
-            <h5>SUBTANCE ABUSE TREATMENT​</h5>
-            <h1>Cocaine Addiction</h1>
-
-            <div class="sa-animate-text">
+        <div class="main">
+          <div class="view view-fourth">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/cocaine.jpg"
+              alt="Cocaine"
+              loading="lazy"
+            />
+            <div class="mask">
               <LinkRoll
                 activeClass="active"
                 to="top"
@@ -152,46 +76,30 @@ const MenusSA = () => {
                 duration={500}
               >
                 <Link to="/cocaine">
-                  <button>Learn More</button>
+                  <p>
+                    Learn More{" "}
+                    <span>
+                      <AiOutlineArrowRight />
+                    </span>
+                  </p>
                 </Link>
               </LinkRoll>
             </div>
           </div>
-        </div>
 
-        <div class="sa-tile">
-          <Fade left>
-            <img src={SubCardBg} alt="Mental Health" loading="lazy" />
-          </Fade>
-          <div class="sa-text">
-            <h5>SUBTANCE ABUSE TREATMENT​</h5>
-            <h1>Fentanyl Addiction</h1>
-
-            <div class="sa-animate-text">
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/fentanyl">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
+          <div className="title">
+            <h2>COCAINE</h2>
           </div>
         </div>
 
-        <div class="sa-tile">
-          <Fade left>
-            <img src={SubCardBg} alt="Mental Health" loading="lazy" />
-          </Fade>
-          <div class="sa-text">
-            <h5>SUBTANCE ABUSE TREATMENT​</h5>
-            <h1>Heroin Addiction</h1>
-
-            <div class="sa-animate-text">
+        <div class="main">
+          <div class="view view-fourth">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/heroin.jpg"
+              alt="Heroin"
+              loading="lazy"
+            />
+            <div class="mask">
               <LinkRoll
                 activeClass="active"
                 to="top"
@@ -200,22 +108,62 @@ const MenusSA = () => {
                 duration={500}
               >
                 <Link to="/heroin">
-                  <button>Learn More</button>
+                  <p>
+                    Learn More{" "}
+                    <span>
+                      <AiOutlineArrowRight />
+                    </span>
+                  </p>
                 </Link>
               </LinkRoll>
             </div>
           </div>
+
+          <div className="title">
+            <h2>HEROIN</h2>
+          </div>
         </div>
 
-        <div class="sa-tile">
-          <Fade left>
-            <img src={SubCardBg} alt="Mental Health" loading="lazy" />
-          </Fade>
-          <div class="sa-text">
-            <h5>SUBTANCE ABUSE TREATMENT​</h5>
-            <h1>Kratom Addiction</h1>
+        <div class="main">
+          <div class="view view-fourth">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/fentanyl.jpg"
+              alt="Fentanyl"
+              loading="lazy"
+            />
+            <div class="mask">
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/fentanyl">
+                  <p>
+                    Learn More{" "}
+                    <span>
+                      <AiOutlineArrowRight />
+                    </span>
+                  </p>
+                </Link>
+              </LinkRoll>
+            </div>
+          </div>
 
-            <div class="sa-animate-text">
+          <div className="title">
+            <h2>FENTANYL</h2>
+          </div>
+        </div>
+
+        <div class="main">
+          <div class="view view-fourth">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/kratom.jpg"
+              alt="Kratom"
+              loading="lazy"
+            />
+            <div class="mask">
               <LinkRoll
                 activeClass="active"
                 to="top"
@@ -224,70 +172,30 @@ const MenusSA = () => {
                 duration={500}
               >
                 <Link to="/kratom">
-                  <button>Learn More</button>
+                  <p>
+                    Learn More{" "}
+                    <span>
+                      <AiOutlineArrowRight />
+                    </span>
+                  </p>
                 </Link>
               </LinkRoll>
             </div>
           </div>
-        </div>
 
-        <div class="sa-tile">
-          <Fade left>
-            <img src={SubCardBg} alt="Mental Health" loading="lazy" />
-          </Fade>
-          <div class="sa-text">
-            <h5>SUBTANCE ABUSE TREATMENT​</h5>
-            <h1>MDMA Addiction</h1>
-
-            <div class="sa-animate-text">
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/mdma">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
+          <div className="title">
+            <h2>KRATOM</h2>
           </div>
         </div>
 
-        <div class="sa-tile">
-          <Fade left>
-            <img src={SubCardBg} alt="Mental Health" loading="lazy" />
-          </Fade>
-          <div class="sa-text">
-            <h5>SUBTANCE ABUSE TREATMENT​</h5>
-            <h1>Meth Addiction</h1>
-
-            <div class="sa-animate-text">
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/meth">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-          </div>
-        </div>
-
-        <div class="sa-tile">
-          <Fade left>
-            <img src={SubCardBg} alt="Mental Health" loading="lazy" />
-          </Fade>
-          <div class="sa-text">
-            <h5>SUBTANCE ABUSE TREATMENT​</h5>
-            <h1>Opiate Addiction</h1>
-
-            <div class="sa-animate-text">
+        <div class="main">
+          <div class="view view-fourth">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/opiate.jpg"
+              alt="Opiate"
+              loading="lazy"
+            />
+            <div class="mask">
               <LinkRoll
                 activeClass="active"
                 to="top"
@@ -296,22 +204,94 @@ const MenusSA = () => {
                 duration={500}
               >
                 <Link to="/opiate">
-                  <button>Learn More</button>
+                  <p>
+                    Learn More{" "}
+                    <span>
+                      <AiOutlineArrowRight />
+                    </span>
+                  </p>
                 </Link>
               </LinkRoll>
             </div>
           </div>
+
+          <div className="title">
+            <h2>OPIATE</h2>
+          </div>
         </div>
 
-        <div class="sa-tile">
-          <Fade left>
-            <img src={SubCardBg} alt="Mental Health" loading="lazy" />
-          </Fade>
-          <div class="sa-text">
-            <h5>SUBTANCE ABUSE TREATMENT​</h5>
-            <h1>Opioid Addiction</h1>
+        <div class="main">
+          <div class="view view-fourth">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/mdma.jpg"
+              alt="MDMA"
+              loading="lazy"
+            />
+            <div class="mask">
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/mdma">
+                  <p>
+                    Learn More{" "}
+                    <span>
+                      <AiOutlineArrowRight />
+                    </span>
+                  </p>
+                </Link>
+              </LinkRoll>
+            </div>
+          </div>
 
-            <div class="sa-animate-text">
+          <div className="title">
+            <h2>MDMA</h2>
+          </div>
+        </div>
+
+        <div class="main">
+          <div class="view view-fourth">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/meth.jpg"
+              alt="Meth"
+              loading="lazy"
+            />
+            <div class="mask">
+              <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <Link to="/meth">
+                  <p>
+                    Learn More{" "}
+                    <span>
+                      <AiOutlineArrowRight />
+                    </span>
+                  </p>
+                </Link>
+              </LinkRoll>
+            </div>
+          </div>
+
+          <div className="title">
+            <h2>METH</h2>
+          </div>
+        </div>
+
+        <div class="main">
+          <div class="view view-fourth">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/opioid.jpg"
+              alt="Opioid"
+              loading="lazy"
+            />
+            <div class="mask">
               <LinkRoll
                 activeClass="active"
                 to="top"
@@ -320,22 +300,30 @@ const MenusSA = () => {
                 duration={500}
               >
                 <Link to="/opioid">
-                  <button>Learn More</button>
+                  <p>
+                    Learn More{" "}
+                    <span>
+                      <AiOutlineArrowRight />
+                    </span>
+                  </p>
                 </Link>
               </LinkRoll>
             </div>
           </div>
+
+          <div className="title">
+            <h2>OPIOID</h2>
+          </div>
         </div>
 
-        <div class="sa-tile">
-          <Fade left>
-            <img src={SubCardBg} alt="Mental Health" loading="lazy" />
-          </Fade>
-          <div class="sa-text">
-            <h5>SUBTANCE ABUSE TREATMENT​</h5>
-            <h1>Oxycodone Addiction</h1>
-
-            <div class="sa-animate-text">
+        <div class="main">
+          <div class="view view-fourth">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/oxycodone.jpg"
+              alt="Oxycodone"
+              loading="lazy"
+            />
+            <div class="mask">
               <LinkRoll
                 activeClass="active"
                 to="top"
@@ -344,22 +332,30 @@ const MenusSA = () => {
                 duration={500}
               >
                 <Link to="/oxycodone">
-                  <button>Learn More</button>
+                  <p>
+                    Learn More{" "}
+                    <span>
+                      <AiOutlineArrowRight />
+                    </span>
+                  </p>
                 </Link>
               </LinkRoll>
             </div>
           </div>
+
+          <div className="title">
+            <h2>OXYCODONE</h2>
+          </div>
         </div>
 
-        <div class="sa-tile">
-          <Fade left>
-            <img src={SubCardBg} alt="Mental Health" loading="lazy" />
-          </Fade>
-          <div class="sa-text">
-            <h5>SUBTANCE ABUSE TREATMENT​</h5>
-            <h1>Presctiption Addiction</h1>
-
-            <div class="sa-animate-text">
+        <div class="main">
+          <div class="view view-fourth">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/prescriptions.jpg"
+              alt="Prescriptions"
+              loading="lazy"
+            />
+            <div class="mask">
               <LinkRoll
                 activeClass="active"
                 to="top"
@@ -367,23 +363,31 @@ const MenusSA = () => {
                 smooth={true}
                 duration={500}
               >
-                <Link to="/prescription">
-                  <button>Learn More</button>
+                <Link to="/prescriptions">
+                  <p>
+                    Learn More{" "}
+                    <span>
+                      <AiOutlineArrowRight />
+                    </span>
+                  </p>
                 </Link>
               </LinkRoll>
             </div>
           </div>
+
+          <div className="title">
+            <h2>PRESCRIPTIONS</h2>
+          </div>
         </div>
 
-        <div class="sa-tile">
-          <Fade left>
-            <img src={SubCardBg} alt="Mental Health" loading="lazy" />
-          </Fade>
-          <div class="sa-text">
-            <h5>SUBTANCE ABUSE TREATMENT​</h5>
-            <h1>Xanax Addiction</h1>
-
-            <div class="sa-animate-text">
+        <div class="main">
+          <div class="view view-fourth">
+            <img
+              src="https://rodeo-recovery-substance-abuse.s3.us-west-1.amazonaws.com/xanax.jpg"
+              alt="Xanax"
+              loading="lazy"
+            />
+            <div class="mask">
               <LinkRoll
                 activeClass="active"
                 to="top"
@@ -392,15 +396,22 @@ const MenusSA = () => {
                 duration={500}
               >
                 <Link to="/xanax">
-                  <button>Learn More</button>
+                  <p>
+                    Learn More{" "}
+                    <span>
+                      <AiOutlineArrowRight />
+                    </span>
+                  </p>
                 </Link>
               </LinkRoll>
             </div>
           </div>
+
+          <div className="title">
+            <h2>XANAX</h2>
+          </div>
         </div>
       </div>
-
-      <Contact2 />
     </>
   );
 };
