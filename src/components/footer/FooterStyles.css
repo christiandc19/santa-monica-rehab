@@ -1,30 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
-
 
 .footer {
     width: 100%;
     height: auto;
     position: relative;
-    background: #000000;
-}
-
-
+    background-color: #000000;  
+  }
+  
 
 .footer .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3rem 0;
+    padding: 2rem 0;
 }
 
-.logo-footer {
-    width: 150px;
-}
-
-.logo-footer img {
-    width: 100%;
-}
 
 .footer .top {
     width: 100%;
@@ -34,132 +24,89 @@
 }
 
 .footer .top .logo-footer {
-    display: flex;
-    align-items: center;
+    width: 250px;
+    height: auto;
 }
 
-.footer .top .footer-icon {
-    font-size: 5rem;
-    margin-right: 1rem;
-    color: white;
-    cursor: pointer;
-    padding: .8rem;
-    border: 1px solid white;
-    border-radius: 10rem;
-}
-
-
-.footer .top .footer-icon2 {
+.logo-footer h1 {
     font-size: 3rem;
-    margin-right: 1rem;
     color: white;
+}
+
+.footer .top .logo-footer img {
+    width: 100%;
+    height: auto;
+}
+
+.footer .top .icon {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
     cursor: pointer;
+    margin: auto;
 }
 
-.footer h1 {
-    font-size: 2rem;
+.col {
+    width: max-content;
+    padding: 0 1rem;
+}
+
+.col a {
     color: white;
+    text-align: center;
 }
 
-.footer h2 {
-    font-size: 2rem;
-}
-
-.footer h3 {
+.col h2 {
+    font-size: .9rem;
     color: white;
-    font-size: 1rem;
+    text-align: center;
 }
 
 .footer .col-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 1rem;
+    justify-content: space-around;
     padding: 1rem;
     width: 100%;
 }
 
-.footer-col {
-    width: 300px;
-}
-
 .footer h3 {
-    margin: 1rem 0;
+    margin: 1rem 0 2rem 0;
     text-transform: uppercase;
-    color: rgb(226, 140, 10);
-    font-size: .8rem;
+    text-align: center;
+    color: rgb(255, 174, 0);
+    font-size: 1.2rem;
 }
 
-.footer .license p {
-    color: white;
-}
-
-.footer .license img {
-    margin: 1rem 0;
-}
-
-
-.footer .license a:hover {
-    color: rgb(8, 138, 245);
-}
 
 .footer p {
-    font-family: 'Montserrat', sans-serif;
     margin: .5rem 0;
-    color: white;
-    font-weight: 500;
-    text-align: left;
-}
+    color: rgb(255, 255, 255);
+    text-align: center;
 
+}
 
 .copyright p {
-    color: white;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
+    text-align: center;
 }
 
-
-.footer .top .footer-icon2 {
-    display: none;
+.col span {
+    color: rgb(255, 174, 0);
 }
 
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 940px) {
     .footer {
         height: 100%;
     }
 
-
-    .footer h1, .footer h2, .footer h3 {
-        text-align: left;
-    }
-
-    .license {
-        width: 100%;
-        text-align: center;
-    }
-
-    .footer-col h3, .footer-col p {
-        text-align: center;
-    }
-
-    .license h3 {
-        text-align: center;
-    }
-
-    .license p {
-        text-align: center;
-    }
-
-    .footer .top .footer-icon {
-        display: none;
 }
 
 
-.logo-footer {
-    margin: auto;
+@media screen and (max-width: 700px) {
+    .footer .top .logo-footer {
+        width: 120px;
+    }
+
 }
-
-
-
-}
-
