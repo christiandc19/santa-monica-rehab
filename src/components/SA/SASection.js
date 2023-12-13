@@ -6,7 +6,7 @@ import MenusSA from '../menusSA/MenusSA'
 import InsuranceSection from '../insurance/InsuranceSection'
 
 
-const MHSection = () => {
+const SASection = () => {
   return (
     <>
     <MenusSA />
@@ -16,4 +16,4 @@ const MHSection = () => {
   )
 }
 
-export default MHSection
+export default SASection
