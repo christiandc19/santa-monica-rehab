@@ -9,6 +9,8 @@ import leaf from "../../assets/leaf.webp";
 const WhatWeDo = () => {
   return (
     <>
+    <div className="bg">
+
       <div className="wrapper1 ">
         <div className="wrapper-content container">
 
@@ -61,6 +63,8 @@ const WhatWeDo = () => {
           </div>
         </div>
       </div>
+      </div>
+
     </>
   );
 };
