@@ -30,11 +30,11 @@ const Hero = () => {
 
 <div className="content">
   <Zoom duration={3000}>
-    <h1>Santa Monica Rehab 
+    <h1>Santa Monica Rehab </h1>
+
             <Zoom duration={3000} delay={1000}>
               <h2>Substance Abuse and Mental Health Treatment Center</h2>
             </Zoom>
-    </h1>
   </Zoom>
      <div className='gauges container'>
      <Zoom duration={3000} delay={1000}>
@@ -53,12 +53,6 @@ const Hero = () => {
 
 </div>
 </div>
-
-
-
-
-
-
 
 
 

@@ -30,8 +30,13 @@
 
 .gauge h3 {
     color: white;
-    font-size: 1rem;
+    font-size: 2rem;
     letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.gauge h4 {
+    font-size: 1rem;
     font-weight: 300;
 }
 
@@ -88,6 +93,17 @@
 @media screen and (max-width:700px)  {
     .gauge p {
         font-size: .8rem;
+    }
+
+    .gauge h3 {
+        font-size: 2rem;
+        letter-spacing: 2px;
+        font-weight: 600;
+    }
+    
+    .gauge h4 {
+        font-size: 1rem;
+        font-weight: 300;
     }
 }
 
