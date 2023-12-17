@@ -4,10 +4,10 @@ import { Link as LinkRoll } from "react-scroll";
 import { Link } from "react-router-dom";
 
 import "./TherapyMH.css";
-import { BiBrain } from "react-icons/bi";
-import { BiSad } from "react-icons/bi";
-import { FaTheaterMasks } from "react-icons/fa";
-import { GiBrain } from "react-icons/gi";
+
+import anxiety from '../../assets/anxiety.webp'
+import depression from '../../assets/depression.webp'
+import bipolar from '../../assets/bipolar.webp'
 
 const TherapyMH = () => {
   return (
@@ -28,11 +28,10 @@ const TherapyMH = () => {
             <Fade left>
               <div className="box1 item">
                 <div className="box-content">
-                  <BiBrain className="box-icon" />
+                  <img src={anxiety} alt="depressed man"/>
                   <h1>ANXIETY</h1>
                   <p>
-                    Inability to manage one’s drinking habits. It is the most
-                    acute form of alcohol abuse.
+                  A persistent, often overwhelming feeling of apprehension or fear about future uncertainties, accompanied by physical symptoms such as increased heart rate and restlessness.
                   </p>
                 </div>
               </div>
@@ -41,12 +40,10 @@ const TherapyMH = () => {
             <Fade top>
               <div className="box2 item">
                 <div className="box-content">
-                  <BiSad className="box-icon" />
+                  <img src={bipolar} alt="depressed woman"/>
                   <h1>DEPRESSION</h1>
                   <p>
-                    Abuse of prescription medications can be recreational, due
-                    to addiction, or both, and the consequences can be severe or
-                    fatal.
+                  Persistent feelings of sadness, hopelessness, and a lack of interest or pleasure in activities, often accompanied by physical symptoms like fatigue and changes in sleep and appetite.
                   </p>
                 </div>
               </div>
@@ -55,30 +52,16 @@ const TherapyMH = () => {
             <Fade bottom>
               <div className="box3 item">
                 <div className="box-content">
-                  <FaTheaterMasks className="box-icon" />
+                <img src={depression} alt="depressed man"/>
                   <h1>BIPOLAR</h1>
                   <p>
-                    Heroin is an opioid stimulant created from morphine and the
-                    seed of the poppy plant. It usually appears in either powder
-                    form or as a sticky tar substance.
+                  Extreme mood swings between manic highs, marked by elevated energy and euphoria, and depressive lows, characterized by profound sadness and lethargy.
                   </p>
                 </div>
               </div>
             </Fade>
 
-            <Fade right>
-              <div className="box4 item">
-                <div className="box-content">
-                  <GiBrain className="box-icon" />
-                  <h1>STRESS DISORDER</h1>
-                  <p>
-                    When taken in high doses, Xanax can lead to serious side
-                    effects, ranging from coma, to respiratory arrest, and even
-                    death.
-                  </p>
-                </div>
-              </div>
-            </Fade>
+            
           </div>
 
           <div className="TherapyMH-btn">
@@ -103,27 +86,6 @@ const TherapyMH = () => {
             </LinkRoll>
           </div>
 
-          <div className="TherapyMH-btn2">
-            <LinkRoll
-              activeClass="active"
-              to="top"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
-              <Link to="/mental-health">
-                <div className="TherapyMH-btn2">
-                  <button class="TherapyMH-cta">
-                    <span>VIEW ALL</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                      <path d="M1,5 L11,5"></path>
-                      <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </button>
-                </div>
-              </Link>
-            </LinkRoll>
-          </div>
         </div>
       </div>
     </>
